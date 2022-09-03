@@ -42,7 +42,7 @@ header{
   font-size: 40px;
   position: absolute;
   top: 15%;
-  left: 15%;
+  left: 23%;
   font-family: serif;
 }
 .commit h3{
@@ -51,13 +51,13 @@ header{
   font-family: serif;
   position: absolute;
   top: 35%;
-  left: 15%;
+  left: 24%;
 }
 .commit p{
   font-size: 13px;
   position: absolute;
-  top: 40%;
-  left: 15%;
+  top: 38%;
+  left: 24%;
 }
 .commit span{
   color: skyblue;
@@ -68,7 +68,7 @@ News
 -------------------------------------------*/
 .news{
   width: 100%;
-  margin: 100px 0px 20% 25%;
+  margin: 100px 0px 10% 25%;
 }
 .second-title span{
   color: red;
@@ -95,8 +95,8 @@ News
   background-color: red;
   color: white;
   margin: 0px 5px 5px 5px;
-  padding: 0px 10px 0px 10px;
-  border-radius: 10px;
+  padding: 5px 10px;
+  border-radius: 30px;
 }
 
 /*-------------------------------------------
@@ -104,7 +104,7 @@ about
 -------------------------------------------*/
 .about-box{
   background-color: rgba(84, 80, 80, 0.3);
-  width: 110%;
+  width: 100%;
   height: 40%;
 }
 .consept span{
@@ -120,19 +120,18 @@ about
   justify-content: space-between;
 }
 .about-text p{
-  padding-left:150px
+  padding-left:200px
 }
 .about-photo img{
   width: 400px;
-  padding: 20px 80px 30px 0px;
+  padding: 20px 140px 30px 0px;
 }
 
 /*-------------------------------------------
 service
 -------------------------------------------*/
 .service{
-  width: 110%;
-  margin-left: 30px;
+  width: 100%;
 }
 .service-header{
   margin:20px 0px 30px 170px;
@@ -173,7 +172,7 @@ service
   position: relative;
 }
 .service-item{
-  width:500px;
+  width:450px;
   height: 200px;
   background-color:rgb(255, 2, 171);
 }
@@ -189,7 +188,7 @@ service
   color: white;
 }
 .service-topics{
-  width:500px;
+  width:450px;
   height: 190px;
   background-color:rgb(205, 203, 203);
 }
@@ -206,11 +205,11 @@ Blog
 -------------------------------------------*/
 .blog{
   background-color:rgba(234, 234, 234, 0.7);
-  width: 120%;
-  margin-top: 20%;
+  width: 100%;
+  margin-top: 7%;
 }
 .blog h2{
-  margin-left: 50px;
+  margin-left: 90px;
 }
 .blog span{
   color: red;
@@ -284,7 +283,7 @@ Blog
   background-color: rgba(234, 234, 234, 0.3);
   width: 100%;
   height: 100px;
-  padding-bottom:100px;
+  padding-bottom:30px;
 }
 .link p{
   font-weight: bold;
@@ -301,7 +300,7 @@ Company
 -------------------------------------------*/
 .company{
   width: 70%;
-  margin: 5% 0 10% 30%;
+  margin: 5% 15% 10% 15%;
 }
 .company span{
   color: red;
@@ -312,17 +311,16 @@ Company
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-right:20px;
   border:  0.1px solid;
 }
 .company dt{
-  width: 20%;
+  width: 15%;
   padding: 20px;
   background-color: rgba(114, 114, 114, 0.2);
   border-bottom: 0.1px solid;
 }
 .company dd{
-  width: 68%;
+  width: 75%;
   margin: 0;
   padding: 20px;
   border-bottom: 0.1px solid;
@@ -335,13 +333,13 @@ detail
   display: flex;
   width: 100%;
   justify-content:space-between;
-  margin: 0 auto;
   position: relative;
 }
 .company-info-text h2{
   color:white;
   font-size: 30px;
   position: absolute;
+  left: 7%;
   top: 21%;
 }
 .interview{
@@ -362,7 +360,6 @@ detail
 .contact{
   text-align: center;
   margin-top: 70px;
-  margin-left: 150px;
 }
 button{
   font-size: 20px;
@@ -394,6 +391,5 @@ footer
 -------------------------------------------*/
 .footer{
   text-align: center;
-  margin-left: 160px;
   margin-top: 7%;
 }
