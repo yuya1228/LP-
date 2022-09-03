@@ -1,0 +1,399 @@
+@charset "utf-8";
+html{
+  width: 100%;
+}
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+header{
+  background-color: white;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.title img{
+  width: 15%;
+  height:40px;
+  padding:15px 20px 10px 20px;
+}
+.title ul{
+  list-style: none;
+  display: flex;
+}
+.title li{
+  margin: 10px 10px;
+}
+
+/*-------------------------------------------
+サムネイル
+-------------------------------------------*/
+.thumbnail{
+  margin-top: 20px;
+}
+.thumbnail img{
+  position: relative;
+  margin-left: 40%;
+  display:block;
+  width: 60%;
+}
+.commit h1{
+  color: red;
+  font-size: 40px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  font-family: serif;
+}
+.commit h3{
+  color: red;
+  font-size: 20px;
+  font-family: serif;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+.commit p{
+  font-size: 13px;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+.commit span{
+  color: skyblue;
+}
+
+/*-------------------------------------------
+News
+-------------------------------------------*/
+.news{
+  width: 100%;
+  margin: 100px 0px 20% 25%;
+}
+.second-title span{
+  color: red;
+  font-size: 10px;
+  font-family: Georgia;
+}
+.list{
+  display:inline;
+  width: 600px;
+}
+.list ul{
+  width: 600px;
+  border-top: solid;
+  border-bottom: 1px solid;
+  padding: 10px 30px 30px 0px;
+}
+.list li{
+  width:600px;
+  list-style: none;
+  padding: 20px;
+  border-bottom:1px solid rgba(0,0,0,0.3);
+}
+.list span{
+  background-color: red;
+  color: white;
+  margin: 0px 5px 5px 5px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 10px;
+}
+
+/*-------------------------------------------
+about
+-------------------------------------------*/
+.about-box{
+  background-color: rgba(84, 80, 80, 0.3);
+  width: 110%;
+  height: 40%;
+}
+.consept span{
+  color: red;
+  font-size: 10px;
+  font-family: serif;
+}
+.consept h2{
+  text-align: center;
+}
+.about-container{
+  display: flex;
+  justify-content: space-between;
+}
+.about-text p{
+  padding-left:150px
+}
+.about-photo img{
+  width: 400px;
+  padding: 20px 80px 30px 0px;
+}
+
+/*-------------------------------------------
+service
+-------------------------------------------*/
+.service{
+  width: 110%;
+  margin-left: 30px;
+}
+.service-header{
+  margin:20px 0px 30px 170px;
+}
+.service-header span{
+  color: red;
+  font-size: 10px;
+  font-family: serif;
+}
+.wrap{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.wrap service-item{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+.service-text{
+  width: 450px;
+  height: 350px;
+  background-color: rgb(255, 2, 145);
+  text-align: center;
+  padding-top: 40px;
+}
+.service-text h3{
+  text-align: center;
+  color: white;
+}
+.service-text p{
+  text-align:justify;
+  padding: 10px 40px 40px 40px;
+  color: white;
+}
+.img-text{
+  width: 140px;
+  position: relative;
+}
+.service-item{
+  width:500px;
+  height: 200px;
+  background-color:rgb(255, 2, 171);
+}
+.service-box{
+  display: flex;
+  flex-direction: column;
+}
+.education {
+  color: black;
+  display: inline-block;
+  position: absolute;
+  text-align: justify;
+  color: white;
+}
+.service-topics{
+  width:500px;
+  height: 190px;
+  background-color:rgb(205, 203, 203);
+}
+.bisiness{
+  color: black;
+  display: inline-block;
+  position: absolute;
+  text-align: justify;
+  color: white;
+}
+
+/*-------------------------------------------
+Blog
+-------------------------------------------*/
+.blog{
+  background-color:rgba(234, 234, 234, 0.7);
+  width: 120%;
+  margin-top: 20%;
+}
+.blog h2{
+  margin-left: 50px;
+}
+.blog span{
+  color: red;
+  font-size: 10px;
+  font-family: serif;
+}
+.blog-logo-mini span{
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  display: inline;
+  width: 80px;
+  height: 30px;
+  padding-top: 10px;
+  border-top-left-radius: 20px;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+}
+.blog-box{
+  display:flex;
+  justify-content:space-around
+}
+.blog-box img{
+  text-align: center;
+  z-index: 0;
+}
+.blog-list{
+  background-color: white;
+  width: 300px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.blog-category{
+  background-color: white;
+  width: 300px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.blog-tag{
+  background-color: white;
+  width: 300px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+.blog-category p{
+  margin:10px;
+  padding: 10px;
+}
+.blog-box img{
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.blog-box li {
+  list-style-type: none;
+}
+.blog-text-category{
+  display: flex;
+  justify-content: space-between;
+}
+.blog-text-category p{
+  margin-left: 10px;
+}
+.blog-company p{
+  display: inline-block;
+  margin-right: 40px;
+}
+.link{
+  background-color: rgba(234, 234, 234, 0.3);
+  width: 100%;
+  height: 100px;
+  padding-bottom:100px;
+}
+.link p{
+  font-weight: bold;
+  background-color: white;
+  color: red;
+  padding: 20px 50px 20px 50px;
+  border-radius: 50px;
+  text-align: center;
+  border: solid 3px;
+  margin: 20px 500px;
+}
+/*-------------------------------------------
+Company
+-------------------------------------------*/
+.company{
+  width: 70%;
+  margin: 5% 0 10% 30%;
+}
+.company span{
+  color: red;
+  font-size: 10px;
+  font-family: serif;
+}
+.company dl{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-right:20px;
+  border:  0.1px solid;
+}
+.company dt{
+  width: 20%;
+  padding: 20px;
+  background-color: rgba(114, 114, 114, 0.2);
+  border-bottom: 0.1px solid;
+}
+.company dd{
+  width: 68%;
+  margin: 0;
+  padding: 20px;
+  border-bottom: 0.1px solid;
+}
+
+/*-------------------------------------------
+detail
+-------------------------------------------*/
+.detail{
+  display: flex;
+  width: 100%;
+  justify-content:space-between;
+  margin: 0 auto;
+  position: relative;
+}
+.company-info-text h2{
+  color:white;
+  font-size: 30px;
+  position: absolute;
+  top: 21%;
+}
+.interview{
+  position: relative;
+}
+.interview h2{
+  color:white;
+  display: inline;
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+/*-------------------------------------------
+お問い合わせ
+-------------------------------------------*/
+.contact{
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 150px;
+}
+button{
+  font-size: 20px;
+    background-image: linear-gradient(90deg, rgba(246, 165, 158, 1), rgba(252, 149, 148, 1) 17% 23%, rgba(253, 146, 146, 1) 36%, rgba(209, 254, 212, 1));
+  color: white;
+  width: 300px;
+  height: 80px;
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 0px 8px 
+  gray;
+  position: relative;
+  z-index: 0
+}
+.contact h3{
+  margin-bottom: 70px;
+}
+.ri-mail-line{
+  font-size: 30px;
+  color: white;
+  margin-top: 23px;
+  margin-left: 20px;
+  position: absolute;
+  z-index: 5;
+}
+
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+.footer{
+  text-align: center;
+  margin-left: 160px;
+  margin-top: 7%;
+}
