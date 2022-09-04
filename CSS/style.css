@@ -66,7 +66,7 @@ header{
 News
 -------------------------------------------*/
 .news{
-  width: 100%;
+  width: 50%;
   margin: 5% 0% 10% 30%;
 }
 .second-title span{
@@ -79,10 +79,11 @@ News
   width: 10%;
 }
 .list ul{
-  width: 45%;
+  width: 80%;
   border-top: solid;
   border-bottom: 1px solid;
   padding: 1% 2% 2% 0%;
+  display: inline-block;
 }
 .list li{
   width: 98%;
