@@ -14,8 +14,8 @@ header{
 }
 .title img{
   width: 15%;
-  height:40px;
-  padding:15px 20px 10px 20px;
+  height:10%;
+  padding:1%;
 }
 .title ul{
   list-style: none;
@@ -24,12 +24,11 @@ header{
 .title li{
   margin: 10px 10px;
 }
-
 /*-------------------------------------------
 サムネイル
 -------------------------------------------*/
 .thumbnail{
-  margin-top: 20px;
+  margin-top: 1%;
 }
 .thumbnail img{
   position: relative;
@@ -39,7 +38,7 @@ header{
 }
 .commit h1{
   color: red;
-  font-size: 40px;
+  font-size: 300%;
   position: absolute;
   top: 15%;
   left: 23%;
@@ -68,7 +67,7 @@ News
 -------------------------------------------*/
 .news{
   width: 100%;
-  margin: 100px 0px 10% 25%;
+  margin: 5% 0% 10% 30%;
 }
 .second-title span{
   color: red;
@@ -77,25 +76,25 @@ News
 }
 .list{
   display:inline;
-  width: 600px;
+  width: 10%;
 }
 .list ul{
-  width: 600px;
+  width: 45%;
   border-top: solid;
   border-bottom: 1px solid;
-  padding: 10px 30px 30px 0px;
+  padding: 1% 2% 2% 0%;
 }
 .list li{
-  width:600px;
+  width: 98%;
   list-style: none;
-  padding: 20px;
+  padding: 3%;
   border-bottom:1px solid rgba(0,0,0,0.3);
 }
 .list span{
   background-color: red;
   color: white;
-  margin: 0px 5px 5px 5px;
-  padding: 5px 10px;
+  margin: 0% 1% 1% 1%;
+  padding: 1.1%;
   border-radius: 30px;
 }
 
@@ -120,11 +119,12 @@ about
   justify-content: space-between;
 }
 .about-text p{
-  padding-left:200px
+  padding-left:30%;
+  display: inline-block;
 }
 .about-photo img{
   width: 400px;
-  padding: 20px 140px 30px 0px;
+  padding: 2% 140px 4% 0%;
 }
 
 /*-------------------------------------------
@@ -134,7 +134,7 @@ service
   width: 100%;
 }
 .service-header{
-  margin:20px 0px 30px 170px;
+  margin:1% 0% 2% 20%;
 }
 .service-header span{
   color: red;
@@ -145,18 +145,19 @@ service
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-right: 10%;
 }
 .wrap service-item{
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 10%;
 }
 .service-text{
-  width: 450px;
-  height: 350px;
+  width: 35%;
+  height: 20%;
   background-color: rgb(255, 2, 145);
   text-align: center;
-  padding-top: 40px;
+  padding-top: 3%;
 }
 .service-text h3{
   text-align: center;
@@ -164,16 +165,16 @@ service
 }
 .service-text p{
   text-align:justify;
-  padding: 10px 40px 40px 40px;
+  padding: 2% 3% 3% 3%;
   color: white;
 }
 .img-text{
-  width: 140px;
+  width: 30%;
   position: relative;
 }
 .service-item{
-  width:450px;
-  height: 200px;
+  width:150%;
+  height: 50%;
   background-color:rgb(255, 2, 171);
 }
 .service-box{
@@ -188,8 +189,8 @@ service
   color: white;
 }
 .service-topics{
-  width:450px;
-  height: 190px;
+  width:150%;
+  height: 50%;
   background-color:rgb(205, 203, 203);
 }
 .bisiness{
@@ -221,9 +222,9 @@ Blog
   color: white;
   font-size: 15px;
   display: inline;
-  width: 80px;
-  height: 30px;
-  padding-top: 10px;
+  width: 5%;
+  height: 3%;
+  padding-top: 1%;
   border-top-left-radius: 20px;
   position: absolute;
   z-index: 5;
@@ -239,29 +240,29 @@ Blog
 }
 .blog-list{
   background-color: white;
-  width: 300px;
+  width: 30%;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 2%;
 }
 .blog-category{
   background-color: white;
   width: 300px;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 2%;
 }
 .blog-tag{
   background-color: white;
   width: 300px;
   border-radius: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 3%;
 }
 .blog-category p{
-  margin:10px;
-  padding: 10px;
+  margin:2%;
+  padding: 2%;
 }
 .blog-box img{
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 20%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -277,23 +278,23 @@ Blog
 }
 .blog-company p{
   display: inline-block;
-  margin-right: 40px;
+  margin: 5% 40px 0% 0%;
 }
 .link{
   background-color: rgba(234, 234, 234, 0.3);
   width: 100%;
-  height: 100px;
-  padding-bottom:30px;
+  height: 50%;
+  padding-bottom:2.5%;
 }
 .link p{
   font-weight: bold;
   background-color: white;
   color: red;
-  padding: 20px 50px 20px 50px;
+  padding: 2% 3%;
   border-radius: 50px;
   text-align: center;
   border: solid 3px;
-  margin: 20px 500px;
+  margin: 1% 40%;
 }
 /*-------------------------------------------
 Company
@@ -315,14 +316,14 @@ Company
 }
 .company dt{
   width: 15%;
-  padding: 20px;
+  padding: 2%;
   background-color: rgba(114, 114, 114, 0.2);
   border-bottom: 0.1px solid;
 }
 .company dd{
   width: 75%;
   margin: 0;
-  padding: 20px;
+  padding: 2.5%;
   border-bottom: 0.1px solid;
 }
 
@@ -332,7 +333,7 @@ detail
 .detail{
   display: flex;
   width: 100%;
-  justify-content:space-between;
+  justify-content:space-around;
   position: relative;
 }
 .company-info-text h2{
@@ -359,13 +360,13 @@ detail
 -------------------------------------------*/
 .contact{
   text-align: center;
-  margin-top: 70px;
+  margin-top: 7%;
 }
 button{
   font-size: 20px;
     background-image: linear-gradient(90deg, rgba(246, 165, 158, 1), rgba(252, 149, 148, 1) 17% 23%, rgba(253, 146, 146, 1) 36%, rgba(209, 254, 212, 1));
   color: white;
-  width: 300px;
+  width: 20%;
   height: 80px;
   border-radius: 30px;
   position: relative;
@@ -380,8 +381,8 @@ button{
 .ri-mail-line{
   font-size: 30px;
   color: white;
-  margin-top: 23px;
-  margin-left: 20px;
+  margin-top: 2%;
+  margin-left: 2%;
   position: absolute;
   z-index: 5;
 }
@@ -392,4 +393,4 @@ footer
 .footer{
   text-align: center;
   margin-top: 7%;
-}
+  }
